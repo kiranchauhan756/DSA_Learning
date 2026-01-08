@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.binary.Counting_Bits;
+import org.example.binary.MissingNumber;
 import org.example.binary.NumberOf_1_Bits;
 import org.example.binary.SumOfTwoNumbers;
 
@@ -17,8 +18,12 @@ public class Main {
      */
 //        NumberOf_1_Bits obj1=new NumberOf_1_Bits();
 //        System.out.println(obj1.hammingWeight(20));
-        Counting_Bits countingBits=new Counting_Bits();
-        countingBits.countBits(20);
+//        Counting_Bits countingBits=new Counting_Bits();
+//        countingBits.countBits(20);
+
+        MissingNumber missingNumber=new MissingNumber();
+        System.out.println("Missing number in integer is: ");
+        System.out.println(missingNumber.findMissingNumber(new int []{9,6,4,2,3,5,7,0,1}));
     }
 
 }

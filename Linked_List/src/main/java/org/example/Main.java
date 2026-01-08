@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.singlyLinkedList.Deletion_In_LL;
+import org.example.doublyLinkedList.InsertionAtLast_DLL;
 
 
 public class Main {
@@ -21,10 +21,16 @@ public class Main {
 //        insertionAtMiddleOfLl.addNodeAtPosition();
 //        insertionAtMiddleOfLl.printLinkedList();
 
-        Deletion_In_LL deletionInLl=new Deletion_In_LL();
-        deletionInLl.addDummyNode();
-        deletionInLl.printLinkedList();
-        deletionInLl.deleteNodeAtPosition();
-        deletionInLl.printLinkedList();
+//        Deletion_In_LL deletionInLl=new Deletion_In_LL();
+//        deletionInLl.addDummyNode();
+//        deletionInLl.printLinkedList();
+//        deletionInLl.deleteNodeAtPosition();
+//        deletionInLl.printLinkedList();
+        InsertionAtLast_DLL insertionInDll=new InsertionAtLast_DLL();
+        insertionInDll.addDummyNode();
+        insertionInDll.printDLL();
+        insertionInDll.insertionInDll();
+        insertionInDll.printDLL();
+        //insertionInDll.printReverseDLL();
     }
 }
