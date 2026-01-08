@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.doublyLinkedList.InsertionAtLast_DLL;
+import org.example.doublyLinkedList.Insertion_In_DLL;
 
 
 public class Main {
@@ -26,7 +26,7 @@ public class Main {
 //        deletionInLl.printLinkedList();
 //        deletionInLl.deleteNodeAtPosition();
 //        deletionInLl.printLinkedList();
-        InsertionAtLast_DLL insertionInDll=new InsertionAtLast_DLL();
+        Insertion_In_DLL insertionInDll=new Insertion_In_DLL();
         insertionInDll.addDummyNode();
         insertionInDll.printDLL();
         insertionInDll.insertionInDll();

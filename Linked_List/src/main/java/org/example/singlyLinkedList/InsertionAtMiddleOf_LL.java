@@ -64,9 +64,8 @@ public class InsertionAtMiddleOf_LL {
     public  void printLinkedList(){
         Node temp=head;
         while(temp!=null){
-            System.out.print(temp.value+" ");
+            System.out.println(temp.value);
             temp=temp.next;
         }
-        System.out.println();
     }
 }

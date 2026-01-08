@@ -8,7 +8,7 @@ import java.util.Scanner;
    Space Complexity-O(n)
 */
 
-public class InsertionAtLast_DLL {
+public class Insertion_In_DLL {
     DoublyLL_Node head;
 
     public void addDummyNode(){
@@ -47,10 +47,13 @@ public class InsertionAtLast_DLL {
                     System.out.println("Please insert a position in range b/w 1-6");
                     return;
                 }else {
-                    System.out.println(temp.prev);
-                    newNode.prev=temp.prev;
-                    newNode.next = temp;
-                    //System.out.println(newNode.next.value+" "+newNode.prev.value);
+                    System.out.println(temp.value);
+                    newNode.next = temp.next;
+                    newNode.prev=temp;
+                    if(temp.next!=null){
+                        temp.next.prev=newNode;
+                    }
+                    temp.next=newNode;
                     System.out.println("DoublyLinked List after adding integer at position : "+position);
 
                 }
