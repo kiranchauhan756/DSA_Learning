@@ -27,7 +27,7 @@ Explanation:
 2 --> 10
 3 --> 11
 4 --> 100
-5 --> 101
+5 --> 1012
  */
 public class Counting_Bits {
   public void countBits(int n){
