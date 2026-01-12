@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.doublyLinkedList.Insertion_In_DLL;
+import org.example.singlyLinkedList.Reverse_Singly_LL;
 
 
 public class Main {
@@ -26,11 +27,17 @@ public class Main {
 //        deletionInLl.printLinkedList();
 //        deletionInLl.deleteNodeAtPosition();
 //        deletionInLl.printLinkedList();
-        Insertion_In_DLL insertionInDll=new Insertion_In_DLL();
-        insertionInDll.addDummyNode();
-        insertionInDll.printDLL();
-        insertionInDll.insertionInDll();
-        insertionInDll.printDLL();
+//        Insertion_In_DLL insertionInDll=new Insertion_In_DLL();
+//        insertionInDll.addDummyNode();
+//        insertionInDll.printDLL();
+//        insertionInDll.insertionInDll();
+//        insertionInDll.printDLL();
         //insertionInDll.printReverseDLL();
+        Reverse_Singly_LL reverse=new Reverse_Singly_LL();
+        reverse.addDummyNode();
+        reverse.printLinkedList();
+        System.out.println();
+        reverse.reverseSinglyLL();
+        reverse.printLinkedList();
     }
 }
