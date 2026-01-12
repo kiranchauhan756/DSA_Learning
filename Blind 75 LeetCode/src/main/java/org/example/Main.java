@@ -27,6 +27,7 @@ public class Main {
 //        System.out.println(missingNumber.findMissingNumber(new int []{9,6,4,2,3,5,7,0,1}));
         ReverseBits rev=new ReverseBits();
         rev.reverseBits(8);
+        rev.reverseBitsSol2(8);
     }
 
 }
