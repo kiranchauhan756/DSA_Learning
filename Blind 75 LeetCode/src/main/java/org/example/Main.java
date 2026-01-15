@@ -31,6 +31,7 @@ public class Main {
 //        rev.reverseBitsSol2(8);
         ContainsDuplicate con=new ContainsDuplicate();
         System.out.println(con.containsDuplicate(new int[]{1,2,3,4,5,31,22}));
+
     }
 
 }
