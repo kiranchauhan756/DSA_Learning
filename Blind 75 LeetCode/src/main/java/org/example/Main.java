@@ -6,6 +6,7 @@ import org.example.binary.MissingNumber;
 import org.example.binary.NumberOf_1_Bits;
 import org.example.binary.ReverseBits;
 import org.example.binary.SumOfTwoNumbers;
+import org.example.string.ValidParanthesis;
 
 /*
      n & 1= n % 2   (& means getting remainder on dividing by 2)
@@ -29,8 +30,12 @@ public class Main {
 //        ReverseBits rev=new ReverseBits();
 //        rev.reverseBits(8);
 //        rev.reverseBitsSol2(8);
-        ContainsDuplicate con=new ContainsDuplicate();
-        System.out.println(con.containsDuplicate(new int[]{1,2,3,4,5,31,22}));
+//        ContainsDuplicate con=new ContainsDuplicate();
+//        System.out.println(con.containsDuplicate(new int[]{1,2,3,4,5,31,22}));
+
+        ValidParanthesis valid=new ValidParanthesis();
+        System.out.println(valid.checkValidParanthesis("()[]{}"));
+        System.out.println(valid.checkValidParanthesis("()[]{"));
 
     }
 

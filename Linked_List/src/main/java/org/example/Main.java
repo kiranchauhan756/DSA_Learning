@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.doublyLinkedList.Insertion_In_DLL;
+import org.example.singlyLinkedList.DetectCycleIn_LL;
 import org.example.singlyLinkedList.Reverse_Singly_LL;
 
 
@@ -33,11 +34,15 @@ public class Main {
 //        insertionInDll.insertionInDll();
 //        insertionInDll.printDLL();
         //insertionInDll.printReverseDLL();
-        Reverse_Singly_LL reverse=new Reverse_Singly_LL();
-        reverse.addDummyNode();
-        reverse.printLinkedList();
-        System.out.println();
-        reverse.reverseSinglyLL();
-        reverse.printLinkedList();
+//        Reverse_Singly_LL reverse=new Reverse_Singly_LL();
+//        reverse.addDummyNode();
+//        reverse.printLinkedList();
+//        System.out.println();
+//        reverse.reverseSinglyLL();
+//        reverse.printLinkedList();
+
+        DetectCycleIn_LL detect=new DetectCycleIn_LL();
+        detect.addDummyNode();
+        System.out.println(detect.detectCycleIn_LL());
     }
 }
