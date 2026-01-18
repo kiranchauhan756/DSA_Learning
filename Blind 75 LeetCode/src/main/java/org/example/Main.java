@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.array.ContainsDuplicate;
+import org.example.array.FindMin_In_Rotated_Sorted_Array;
 import org.example.binary.Counting_Bits;
 import org.example.binary.MissingNumber;
 import org.example.binary.NumberOf_1_Bits;
@@ -33,9 +34,11 @@ public class Main {
 //        ContainsDuplicate con=new ContainsDuplicate();
 //        System.out.println(con.containsDuplicate(new int[]{1,2,3,4,5,31,22}));
 
-        ValidParanthesis valid=new ValidParanthesis();
-        System.out.println(valid.checkValidParanthesis("()[]{}"));
-        System.out.println(valid.checkValidParanthesis("()[]{"));
+//        ValidParanthesis valid=new ValidParanthesis();
+//        System.out.println(valid.checkValidParanthesis("()[]{}"));
+//        System.out.println(valid.checkValidParanthesis("()[]{"));
+        FindMin_In_Rotated_Sorted_Array find =new FindMin_In_Rotated_Sorted_Array();
+        System.out.println(find.findInRotatedSortedArray(new int []{8,2,5,1,3,6,7}));
 
     }
 
