@@ -30,14 +30,13 @@ public class Deletion_In_LL {
                 return;
             }
 
-            //Case 2 . Insertion At Middle or Last
             int count =1;
             Node temp=head;
             while (count < position-1 && temp!=null) {
                 temp = temp.next;
                 count++;
             }
-            // case 3 . If Position given >LinkedList length
+            // case 2 . If Position given >LinkedList length
             if(temp==null || temp.next == null){
                 System.out.println("Please insert a position in range b/w 1-5");
                 return;

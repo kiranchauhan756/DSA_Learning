@@ -7,6 +7,7 @@ import org.example.binary.MissingNumber;
 import org.example.binary.NumberOf_1_Bits;
 import org.example.binary.ReverseBits;
 import org.example.binary.SumOfTwoNumbers;
+import org.example.matrix.SpiralMatrix;
 import org.example.string.ValidParanthesis;
 
 /*
@@ -37,8 +38,9 @@ public class Main {
 //        ValidParanthesis valid=new ValidParanthesis();
 //        System.out.println(valid.checkValidParanthesis("()[]{}"));
 //        System.out.println(valid.checkValidParanthesis("()[]{"));
-        FindMin_In_Rotated_Sorted_Array find =new FindMin_In_Rotated_Sorted_Array();
-        System.out.println(find.findInRotatedSortedArray(new int []{8,2,5,1,3,6,7}));
+//        FindMin_In_Rotated_Sorted_Array find =new FindMin_In_Rotated_Sorted_Array();
+//        System.out.println(find.findInRotatedSortedArray(new int []{8,2,5,1,3,6,7}));
+        SpiralMatrix.printSpiralMatrix(new int [][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}});
 
     }
 
