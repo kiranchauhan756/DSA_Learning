@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.doublyLinkedList.Insertion_In_DLL;
 import org.example.singlyLinkedList.DetectCycleIn_LL;
-import org.example.singlyLinkedList.Remove_NthNode_From_Back_LL;
+import org.example.singlyLinkedList.Palindrome_LL;
 import org.example.singlyLinkedList.Reverse_Singly_LL;
 
 
@@ -46,11 +46,14 @@ public class Main {
         detect.addDummyNode();
         System.out.println(detect.detectCycleIn_LL());*/
 
-        Remove_NthNode_From_Back_LL remove=new Remove_NthNode_From_Back_LL();
-        remove.addDummyNode();
-        remove.printLinkedList();
-        System.out.println();
-        remove.removeNthFromBack(2);
-        remove.printLinkedList();
+//        Remove_NthNode_From_Back_LL remove=new Remove_NthNode_From_Back_LL();
+//        remove.addDummyNode();
+//        remove.printLinkedList();
+//        System.out.println();
+//        remove.removeNthFromBack(2);
+//        remove.printLinkedList();
+        Palindrome_LL palindromeLl=new Palindrome_LL();
+        palindromeLl.addDummyNode();
+        palindromeLl.checkPalindrome();
     }
 }
