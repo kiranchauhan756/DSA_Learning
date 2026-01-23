@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.array.ContainsDuplicate;
 import org.example.array.FindMin_In_Rotated_Sorted_Array;
+import org.example.array.Power;
 import org.example.array.ProductOfArrayExceptSelf;
 import org.example.array.TwoSum;
 import org.example.binary.Counting_Bits;
@@ -43,13 +44,15 @@ public class Main {
 //        FindMin_In_Rotated_Sorted_Array find =new FindMin_In_Rotated_Sorted_Array();
 //        System.out.println(find.findInRotatedSortedArray(new int []{8,2,5,1,3,6,7}));
 //        SpiralMatrix.printSpiralMatrix(new int [][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}});
-        TwoSum.printTwoSum(new int []{2,7,11,15},9);
-        ProductOfArrayExceptSelf product=new ProductOfArrayExceptSelf();
-        int ans[]=product.productExceptSelf(new int [] {1,2,3,4,5});
-        for(int x: ans){
-            System.out.print(x+" ");
-        }
-        System.out.println();
+//        TwoSum.printTwoSum(new int []{2,7,11,15},9);
+//        ProductOfArrayExceptSelf product=new ProductOfArrayExceptSelf();
+//        int ans[]=product.productExceptSelf(new int [] {1,2,3,4,5});
+//        for(int x: ans){
+//            System.out.print(x+" ");
+//        }
+//        System.out.println();
+
+        System.out.println(Power.printPower(2,-2));
     }
 
 }
