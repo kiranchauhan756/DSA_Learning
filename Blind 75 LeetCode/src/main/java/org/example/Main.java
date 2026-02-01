@@ -1,7 +1,9 @@
 package org.example;
 
 import org.example.array.ContainsDuplicate;
+import org.example.array.Find3LargestNumber;
 import org.example.array.FindMin_In_Rotated_Sorted_Array;
+import org.example.array.MaxSubArr_Kadane_Algo;
 import org.example.array.NegativeAtStarting;
 import org.example.array.Power;
 import org.example.array.ProductOfArrayExceptSelf;
@@ -53,9 +55,11 @@ public class Main {
 //        }
 //        System.out.println();
 
-//        System.out.println(Power.printPower(2,-2));
-        NegativeAtStarting.negToStartWithoutOrderMaintain(new int []{6,7,-1,5,6,-8,0,-4,3,-17});
-        NegativeAtStarting.negToStartWithOrderMaintain(new int []{6,7,-1,5,6,-8,0,-4,3,-17});
+////        System.out.println(Power.printPower(2,-2));
+//        NegativeAtStarting.negToStartWithoutOrderMaintain(new int []{6,7,-1,5,6,-8,0,-4,3,-17});
+//        NegativeAtStarting.negToStartWithOrderMaintain(new int []{6,7,-1,5,6,-8,0,-4,3,-17});
+//        Find3LargestNumber.find3LargestNumber(new int[]{1,5,-5,9,2,0,-8,-10});
+        MaxSubArr_Kadane_Algo.findMaxSubArray(new int []{-2,1,-3,4,-1,2,1,-5,4});
 
     }
 
