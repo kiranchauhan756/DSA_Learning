@@ -8,6 +8,7 @@ import org.example.array.NegativeAtStarting;
 import org.example.array.Power;
 import org.example.array.ProductOfArrayExceptSelf;
 import org.example.array.ReverseArray;
+import org.example.array.Subset_PowerSet;
 import org.example.array.TwoSum;
 import org.example.binary.Counting_Bits;
 import org.example.binary.MissingNumber;
@@ -61,7 +62,8 @@ public class Main {
 //        NegativeAtStarting.negToStartWithOrderMaintain(new int []{6,7,-1,5,6,-8,0,-4,3,-17});
 //        Find3LargestNumber.find3LargestNumber(new int[]{1,5,-5,9,2,0,-8,-10});
 //        MaxSubArr_Kadane_Algo.findMaxSubArray(new int []{-2,1,-3,4,-1,2,1,-5,4});
-        ReverseArray.reverse(new int []{1,2,3,4,5,6,7,8,9,10},10);
+//        ReverseArray.reverse(new int []{1,2,3,4,5,6,7,8,9,10},10);
+        Subset_PowerSet.printSubSet(new int []{1,2,3});
 
     }
 
