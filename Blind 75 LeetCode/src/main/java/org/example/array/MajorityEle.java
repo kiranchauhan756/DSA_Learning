@@ -1,0 +1,17 @@
+package org.example.array;
+
+public class MajorityEle {
+    public int majorityElement(int[] nums) {
+        int ans=0,count=0;
+        for(int i=0;i<nums.length;i++){
+            if(count==0){
+                ans=nums[i];
+                count=1;
+            }
+
+            else  if(nums[i]==ans)count++;
+            else count--;
+        }
+        return ans;
+    }
+}
